@@ -7,7 +7,7 @@ Usage:
   docker run -d --restart always --name unbound -p 53:53 -p 53:53/udp artee666/unbound
 
 docker-compose.yml:
-
+```
 services:
   unbound:
       container_name: unbound
@@ -16,3 +16,4 @@ services:
         - 53:53/tcp
         - 53:53/udp
       restart:always
+```
