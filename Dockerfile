@@ -1,7 +1,5 @@
 FROM alpine:edge
 
-LABEL maintainer "Roman Porizka"
-
 RUN apk add --update --no-cache \
 	curl \
 	unbound \
