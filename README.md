@@ -1,4 +1,4 @@
-# unbound
+# unbound on Docker
 unbound - simple recursive caching dns server
 
 This container is based on alpine:edge and unbound is configured as recursive resolver with qname minimisation on.
